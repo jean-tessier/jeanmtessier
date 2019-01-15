@@ -1,0 +1,23 @@
+@import '../../styles/colors.scss';
+
+#navigation-menu {
+    background-color: $DARKEST;
+    color: $LIGHTEST;
+
+    & > .navigation-title {
+        background-color: $DARK;
+
+        & > div {
+            color: #fff;
+            font-weight: bold;
+        }
+    }
+
+    & > .ant-menu-item {
+        color: $LIGHTEST;
+
+        &.ant-menu-item-selected {
+            background-color: $MEDIUM;
+        }
+    }
+}

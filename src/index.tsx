@@ -4,7 +4,7 @@ import Main from './components/Main/Main';
 import * as serviceWorker from './serviceWorker';
 
 import 'antd/dist/antd.css';
-import './index.css';
+import './index.scss';
 
 
 ReactDOM.render(<Main />, document.getElementById('root'));

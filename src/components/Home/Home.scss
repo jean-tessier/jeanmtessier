@@ -1,0 +1,17 @@
+#portrait {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+}
+
+#header {
+    & h1 {
+        display: inline-block;
+        position: absolute;
+        bottom: 0;
+    }
+}
+
+#bio {
+    margin-top: 25px;
+}

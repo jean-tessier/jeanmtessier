@@ -3,8 +3,7 @@ import { BrowserRouter as Router, Route, Link, Switch, Redirect } from 'react-ro
 import Home from '../Home/Home';
 import About from '../About/About';
 
-import logo from './logo.svg';
-import './Main.css';
+import './Main.scss';
 import Navigation from '../Navigation/Navigation';
 
 class Main extends Component {
