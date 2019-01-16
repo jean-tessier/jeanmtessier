@@ -24,8 +24,11 @@ class Navigation extends React.Component<{}, {}> {
                 <Menu.Item key="Home">
                     <Link to="/">Home</Link>
                 </Menu.Item>
-                <Menu.Item key="About">
-                    <Link to="/about">About</Link>
+                <Menu.Item key="Personal">
+                    <Link to="/personal">Personal Projects</Link>
+                </Menu.Item>
+                <Menu.Item key="Professional">
+                    <Link to="/professional">Professional Projects</Link>
                 </Menu.Item>
             </Menu>
         );

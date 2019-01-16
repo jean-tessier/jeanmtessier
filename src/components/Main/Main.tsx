@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Link, Switch, Redirect } from 'react-router-dom';
-import Home from '../Home/Home';
-import About from '../About/About';
+import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
+import Navigation from '../Navigation/Navigation';
+import { Home, PersonalProjects, ProfessionalProjects } from '../Pages';
 
 import './Main.scss';
-import Navigation from '../Navigation/Navigation';
 
 class Main extends Component {
   render() {
@@ -16,7 +15,8 @@ class Main extends Component {
           <div className="content-wrapper">
             <Switch>
               <Route exact path="/" component={Home} />
-              <Route path="/about" component={About} />
+              <Route path="/personal" component={PersonalProjects} />
+              <Route path="/professional" component={ProfessionalProjects} />
               {/* Redirect non-matching routes to '/' (home) */}
               <Route component={() =>
                 <Redirect to="/"/>
