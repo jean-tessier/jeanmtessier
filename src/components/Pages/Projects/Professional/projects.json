@@ -10,7 +10,10 @@
             "SQL",
             "TypeScript/JavaScript",
             "SCSS/CSS",
-            "HTML5"
+            "HTML5",
+            "Git",
+            "BitBucket",
+            "JIRA"
         ],
         "length": "1 year, 2 months",
         "summary": "A web app platform and API for a large automotive OEM intended to centralize common digital work operations and reduce cost of new, web-ready applications.",
@@ -18,7 +21,8 @@
             "How to proficiently write and read TypeScript/JavaScript.",
             "How to utilize the MERN Stack (MongoDB, Express.js, React.js, Node.js) to develop professional-grade Web Apps.",
             "How to utilize GraphQL to facilitate communication between a client and a server.",
-            "How to proficiently create SCSS/CSS styles to beautify a Web App."
+            "How to proficiently create SCSS/CSS styles to beautify a Web App.",
+            "How to proficiently discuss software development tasks with clients based in another country (English Second Language)."
         ],
         "achievements": [
             "Ability to quickly pick up and competently utilize the technology stack for the project was commended by team lead.",
