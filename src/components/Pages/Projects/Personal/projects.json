@@ -1,0 +1,60 @@
+[
+    {
+        "name": "This Website!",
+        "link": "https://github.com/jean-tessier/jeanmtessier",
+        "techStack": [
+            "TypeScript/JavaScript",
+            "React.js",
+            "Express.js",
+            "Node.js",
+            "HTML5",
+            "SCSS/CSS"
+        ],
+        "summary": "My personal website: for recording and sharing my programming accomplishments, both personal and professional.",
+        "knowledgeGained": [
+            "How to define a sensible architecture for a React.js website",
+            "How to fully launch a Node.js website, from domain name registration to hosting"
+        ]
+    },
+    {
+        "name": "String Genetic Algorithm",
+        "link": "https://github.com/jean-tessier/TextGeneticAlgorithm",
+        "techStack": [
+            "C#"
+        ],
+        "summary": "My favorite pet project - a genetic algorithm - written in C# to familiarize myself with the popular language while exemplifying the power of genetic algorithms for machine learning in an easy-to-visualize format.",
+        "knowledgeGained": [
+            "How to read and write C#.",
+            "How to utilize Visual Studio Unit Testing Libraries."
+        ]
+    },
+    {
+        "name": "Cocos2d-x Tiled Framework",
+        "link": "https://github.com/jean-tessier/TiledFramework",
+        "techStack": [
+            "C++",
+            "Cocos2d-x"
+        ],
+        "summary": "Extending utility provided by the Cocos2D-X game development platform, this framework is intended to make 2D Tile-based game development simpler. Included is a simple proof-of-concept game.",
+        "knowledgeGained": [
+            "Best practices for C++ constructors",
+            "How to strictly define functions in C++",
+            "How to implement simple AI",
+            "How to use valgrind to review code for memory leaks"
+        ]
+    },
+    {
+        "name": "Memory Allocator",
+        "link": "https://github.com/jean-tessier/MemoryAllocator",
+        "techStack": [
+            "C"
+        ],
+        "summary": "A memory allocator, similar to that of the standard libraries, written in C.",
+        "knowledgeGained": [
+            "Intimate knowledge of how memory allocation is handled by the computer",
+            "How to be proficient with pointers",
+            "How to handle garbage collection",
+            "How to define structs to take advantage of memory alignment"
+        ]
+    }
+]
