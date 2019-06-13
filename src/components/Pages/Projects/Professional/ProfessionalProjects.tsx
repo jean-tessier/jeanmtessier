@@ -9,7 +9,7 @@ class ProfessionalProjects extends React.Component<{}, {}> {
         return (
             <div>
                 <h1>Professional Projects</h1>
-                {projects.map((project: IProject) => <Project projectData={project} />)}
+                {projects.map((project: IProject, idx: number) => <Project key={'project'+idx} projectData={project} />)}
             </div>
         );
     }

@@ -44,7 +44,7 @@ class Project extends React.Component<IProps, {}> {
                 </h2>
                 {this.renderProjectLength(projectData.length)}
                 <div id="project-tech-stack">
-                    {projectData.techStack.map((tech: string) => <Tag>{tech}</Tag>)}
+                    {projectData.techStack.map((tech: string, idx: number) => <Tag key={"techStack" + idx}>{tech}</Tag>)}
                 </div>
             </div>
         );

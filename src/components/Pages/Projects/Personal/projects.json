@@ -17,18 +17,6 @@
         ]
     },
     {
-        "name": "String Genetic Algorithm",
-        "link": "https://github.com/jean-tessier/TextGeneticAlgorithm",
-        "techStack": [
-            "C#"
-        ],
-        "summary": "My favorite pet project - a genetic algorithm - written in C# to familiarize myself with the popular language while exemplifying the power of genetic algorithms for machine learning in an easy-to-visualize format.",
-        "knowledgeGained": [
-            "How to read and write C#.",
-            "How to utilize Visual Studio Unit Testing Libraries."
-        ]
-    },
-    {
         "name": "Cocos2d-x Tiled Framework",
         "link": "https://github.com/jean-tessier/TiledFramework",
         "techStack": [
@@ -41,6 +29,31 @@
             "How to strictly define functions in C++",
             "How to implement simple AI",
             "How to use valgrind to review code for memory leaks"
+        ]
+    },
+    {
+        "name": "Simple Ray Tracer",
+        "link": "https://github.com/jean-tessier/raytrace",
+        "techStack": [
+            "C++"
+        ],
+        "summary": "A raytracing program for rendering three-dimensional scenes.",
+        "knowledgeGained": [
+            "The fundamentals of raytracing",
+            "The fundamentals of Makefiles",
+            "The fundamentals of Test Driven Development using the Catch testing library"
+        ]
+    },
+    {
+        "name": "String Genetic Algorithm",
+        "link": "https://github.com/jean-tessier/TextGeneticAlgorithm",
+        "techStack": [
+            "C#"
+        ],
+        "summary": "My favorite pet project - a genetic algorithm - written in C# to familiarize myself with the popular language while exemplifying the power of genetic algorithms for machine learning in an easy-to-visualize format.",
+        "knowledgeGained": [
+            "How to read and write C#.",
+            "How to utilize Visual Studio Unit Testing Libraries."
         ]
     },
     {

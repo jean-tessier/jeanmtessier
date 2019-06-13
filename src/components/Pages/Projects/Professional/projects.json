@@ -29,5 +29,25 @@
             "Performed as acting lead developer: communicated directly with customer regarding estimations, issues, and new feature or bug requests; organized and delegated tasks according to team strengths and abilities; trained team members on relevant technologies as the need arose.",
             "Commended by team lead for ability to quickly pick up the necessary skills to competently and confidently complete development tasks related to the project (little prior JavaScript/TypeScript experience)."
         ]
+    },
+    {
+        "name": "C++ Desktop Simulation Application",
+        "techStack": [
+            "C++17",
+            "Boost",
+            "QT"
+        ],
+        "length": "3 months",
+        "summary": "A desktop application for a large automotive OEM intended to simulate and evaluate the efficacy of products with minimal risk.",
+        "knowledgeGained": [
+            "How to take advantage of C++17's many useful STL additions.",
+            "How to utilize Google's C++ testing and mocking framework.",
+            "How to use Qt's libraries for simple and fast XML parsing.",
+            "How to utilize the principle of separation of responsibilities to keep code clean and robust.",
+            "How to use Test Driven Development to develop maintainable code."
+        ],
+        "achievements": [
+            "Communicated effectively with an international team of developers to achieve project goals."
+        ]
     }
 ]
