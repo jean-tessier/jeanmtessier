@@ -12,7 +12,7 @@ class Project extends React.Component<IProps, {}> {
     render(): ReactNode {
         const { projectData } = this.props;
         return (
-            <Card title={this.renderCardTitle(projectData)}>
+            <Card className="project-wrapper" title={this.renderCardTitle(projectData)}>
                 <Card type="inner" size="small">
                     <h3>Summary</h3>
                     <div>

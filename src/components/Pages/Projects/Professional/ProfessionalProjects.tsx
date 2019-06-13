@@ -2,6 +2,8 @@ import React, { ReactNode } from 'react';
 import { Project } from '../../../index';
 import { IProject } from '../../../Project/interfaces';
 
+import './ProfessionalProjects.scss';
+
 import projects from './projects.json';
 
 class ProfessionalProjects extends React.Component<{}, {}> {
