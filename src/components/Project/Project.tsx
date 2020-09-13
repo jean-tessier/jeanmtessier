@@ -50,7 +50,7 @@ class Project extends React.Component<IProps, {}> {
         );
     }
 
-    private renderProjectLength = (projectLength?: string): ReactNode => {
+    private renderProjectLength = (projectLength?: string | null): ReactNode => {
         return !!projectLength ? (
             <h5>Project Length: {projectLength}</h5>
         ) : null;
@@ -65,20 +65,25 @@ class Project extends React.Component<IProps, {}> {
         ) : null;
     }
 
-    private renderAchievements = (achievements?: string[]): ReactNode => {
-        return !!achievements ? (
-            <Card type="inner" size="small">
-                <h3>Achievements</h3>
-                <List
-                    dataSource={achievements}
-                    renderItem={(achievement: string) => (
-                        <List.Item>
-                            {achievement}
-                        </List.Item>
-                    )}
-                />
-            </Card>
-        ) : null;
+    private renderAchievements = (achievements?: string[] | null): ReactNode => {
+        if (!!achievements && achievements.length > 0)
+        {
+            return (
+                <Card type="inner" size="small">
+                    <h3>Achievements</h3>
+                    <List
+                        dataSource={achievements}
+                        renderItem={(achievement: string) => (
+                            <List.Item>
+                                {achievement}
+                            </List.Item>
+                        )}
+                    />
+                </Card>
+            );
+        }
+
+        return null;
     }
 }
 
